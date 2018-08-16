@@ -1,0 +1,11 @@
+{
+  "handleUsers": false,
+  "restrictResources": true,
+  "resources": {
+    "users": {},
+    "clients": {},
+    "entries": {},
+    "projects": {},
+    "user_projects": {}
+  }
+}
