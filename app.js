@@ -2,11 +2,11 @@ require('dotenv').config();
 
 const express = require('express');
 const logger = require('morgan');
-const wristrest = require('wristrest');
+const wrestler = require('wrestler');
 const cors = require('cors');
-const validation = require('./validation.json')
+const config = require('./wrestler-config.json');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 app.set('trust proxy', 1); // trust first proxy
@@ -14,5 +14,5 @@ app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(wristrest(validation));
+app.use(wrestler(config));
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));

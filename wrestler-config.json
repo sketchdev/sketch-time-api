@@ -1,8 +1,8 @@
 {
-  "handleUsers": false,
+  "handleUsers": true,
   "restrictResources": true,
   "resources": {
-    "users": {},
+    "user": {},
     "clients": {},
     "entries": {},
     "projects": {},
