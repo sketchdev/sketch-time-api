@@ -3,9 +3,8 @@
   "restrictResources": true,
   "resources": {
     "user": {},
-    "clients": {},
-    "entries": {},
-    "projects": {},
-    "user_projects": {}
+    "client": {},
+    "entry": {},
+    "project": {}
   }
 }
