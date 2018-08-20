@@ -1,5 +1,5 @@
 {
-  "handleUsers": true,
+  "users": true,
   "restrictResources": true,
   "resources": {
     "user": {},

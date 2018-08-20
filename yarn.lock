@@ -375,6 +375,10 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+nodemailer@4.6.8:
+  version "4.6.8"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-4.6.8.tgz#f82fb407828bf2e76d92acc34b823d83e774f89c"
+
 object-assign@^4:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -510,11 +514,15 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
-uuid@^3.3.2:
+uuid@3.3.2, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
-validator@^10.4.0, validator@^10.5.0:
+validator@^10.4.0:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.6.0.tgz#a9bdce685b3c3e8480e7ebbb9eb95c54cd9733b0"
+
+validator@^10.5.0:
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-10.5.0.tgz#1debbe1e6f5fd0c920ed2af47516f3762033939c"
 
@@ -523,11 +531,14 @@ vary@^1, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
 "wrestler@git+https://github.com/sketchdev/wrestler.git":
-  version "0.2.3"
-  resolved "git+https://github.com/sketchdev/wrestler.git#c364a88d5efec4b13bae9a333c9381076fc302fe"
+  version "0.2.7"
+  resolved "git+https://github.com/sketchdev/wrestler.git#c494214a096aa7c2bf6f8cf09ced15bd237d3e9a"
   dependencies:
     express-validator "^5.3.0"
     jsonwebtoken "8.3.0"
+    lodash "4.17.10"
     mongodb "^3.1.1"
     nedb "^1.8.0"
+    nodemailer "4.6.8"
+    uuid "3.3.2"
     validator "^10.5.0"
